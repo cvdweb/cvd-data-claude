@@ -1,0 +1,52 @@
+{
+    "meta": {
+        "table": "users",
+        "total": 3,
+        "updated_at": "2026-05-31T09:29:31+07:00",
+        "version": "1.0"
+    },
+    "data": [
+        {
+            "id": "usr_001",
+            "email": "bgiamdoc@thcsthpt-soctrang.edu.vn",
+            "password": "$2y$10$z3seq9.lP7jsd/d2pKZJ.ur4ZkXM4WRh4rhaGtmDK4nrL7LCBToAm",
+            "role": "admin",
+            "teacher_id": null,
+            "dept_id": null,
+            "is_active": true,
+            "login_count": 27,
+            "last_login": "2026-05-29T15:31:21+07:00",
+            "must_change_password": false,
+            "created_at": "2025-01-01T00:00:00+07:00",
+            "updated_at": "2026-05-29T15:31:21+07:00"
+        },
+        {
+            "id": "usr_002",
+            "email": "totruong.toan@thcsthpt-soctrang.edu.vn",
+            "password": "$2y$10$T7srLI8O6sNvx2glyF.ijuKt4x6zIiH.YA1dGSNxh9veY5o8Vix9m",
+            "role": "dept_head",
+            "teacher_id": "tchr_002",
+            "dept_id": "dept_001",
+            "is_active": true,
+            "login_count": 20,
+            "last_login": "2026-05-29T09:36:15+07:00",
+            "must_change_password": false,
+            "created_at": "2025-01-01T00:00:00+07:00",
+            "updated_at": "2026-05-29T09:36:15+07:00"
+        },
+        {
+            "id": "usr_003",
+            "email": "huong.nguyen@thcsthpt-soctrang.edu.vn",
+            "password": "$2y$10$tVOQ/i2.DItyehrH8dZNAuWh7puXIomvQcpfVxETFQDjeavtHwLZa",
+            "role": "teacher",
+            "teacher_id": "tchr_001",
+            "dept_id": "dept_001",
+            "is_active": true,
+            "login_count": 18,
+            "last_login": "2026-05-31T09:29:31+07:00",
+            "must_change_password": false,
+            "created_at": "2025-01-01T00:00:00+07:00",
+            "updated_at": "2026-05-31T09:29:31+07:00"
+        }
+    ]
+}

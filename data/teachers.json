@@ -1,0 +1,149 @@
+{
+  "meta": { "table": "teachers", "total": 12, "updated_at": "2025-01-21T00:00:00+07:00" },
+  "data": [
+    {
+      "id": "tchr_001", "user_id": "usr_003",
+      "personal": { "full_name": "Nguyễn Thị Hương", "dob": "1986-05-12", "gender": "Nữ", "ethnicity": "Kinh", "religion": "Không", "cccd": "079198012345", "cccd_date": "2022-12-01", "hometown": "Sóc Trăng", "address": "123 Lê Lợi, P.1, TP.Sóc Trăng", "phone": "0901234567", "email": "huong.nguyen@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_001", "subject": "Toán học", "role": "Giáo viên", "rank": "GV hạng II", "join_date": "2010-08-01", "weekly_lessons": 18, "salary_coeff": 3.66, "party_member": true, "party_year": 2012 },
+      "education": { "degree": "Thạc sĩ", "major": "Sư phạm Toán", "institution": "ĐH Cần Thơ", "grad_year": 2008, "foreign_lang": "B2 - IELTS 6.0", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Đã kết hôn", "spouse_name": "Nguyễn Văn Bảo", "spouse_job": "Kỹ sư xây dựng", "spouse_phone": "0912345678", "children": [{ "name": "Nguyễn Thị Bảo Châu", "year": 2015, "gender": "Nữ" }, { "name": "Nguyễn Văn Bảo Khang", "year": 2018, "gender": "Nam" }], "emergency_contact": "Nguyễn Văn Bảo - 0912345678" },
+      "certificates": [{ "name": "Chứng chỉ bồi dưỡng THPT hạng II", "issued_by": "Bộ GD&ĐT", "year": 2022 }, { "name": "IELTS 6.0", "issued_by": "British Council", "year": 2021 }],
+      "achievements": [{ "title": "GV dạy giỏi cấp tỉnh", "awarded_by": "Sở GD&ĐT Sóc Trăng", "year": 2022, "level": "province" }, { "title": "Chiến sĩ thi đua cơ sở", "awarded_by": "Trường THCS&THPT", "year": 2023, "level": "school" }],
+      "avatar_url": "https://i.pravatar.cc/150?img=47",
+      "status": "complete", "completion_pct": 92,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-21T07:00:00+07:00"
+    },
+    {
+      "id": "tchr_002", "user_id": "usr_002",
+      "personal": { "full_name": "Trần Văn Bình", "dob": "1982-11-20", "gender": "Nam", "ethnicity": "Kinh", "religion": "Không", "cccd": "079182056789", "cccd_date": "2022-10-01", "hometown": "Cần Thơ", "address": "45 Hai Bà Trưng, P.3, TP.Sóc Trăng", "phone": "0912345678", "email": "binh.tran@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_001", "subject": "Vật lý", "role": "Tổ trưởng", "rank": "GV hạng I", "join_date": "2005-08-01", "weekly_lessons": 16, "salary_coeff": 4.32, "party_member": true, "party_year": 2008 },
+      "education": { "degree": "Thạc sĩ", "major": "Sư phạm Vật lý", "institution": "ĐH Sư phạm TP.HCM", "grad_year": 2005, "foreign_lang": "B1", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Đã kết hôn", "spouse_name": "Lê Thị Thu", "spouse_job": "Giáo viên Mầm non", "spouse_phone": "0923456789", "children": [{ "name": "Trần Văn Khải", "year": 2012, "gender": "Nam" }], "emergency_contact": "Lê Thị Thu - 0923456789" },
+      "certificates": [{ "name": "Chứng chỉ bồi dưỡng THPT hạng I", "issued_by": "Bộ GD&ĐT", "year": 2020 }],
+      "achievements": [{ "title": "GV dạy giỏi cấp tỉnh", "awarded_by": "Sở GD&ĐT Sóc Trăng", "year": 2022, "level": "province" }, { "title": "Bằng khen Bộ GD&ĐT", "awarded_by": "Bộ Giáo dục", "year": 2023, "level": "national" }],
+      "avatar_url": "https://i.pravatar.cc/150?img=12",
+      "status": "complete", "completion_pct": 95,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-20T06:45:00+07:00"
+    },
+    {
+      "id": "tchr_003", "user_id": null,
+      "personal": { "full_name": "Lê Thị Phương", "dob": "1993-03-08", "gender": "Nữ", "ethnicity": "Kinh", "religion": "Không", "cccd": "079193034567", "cccd_date": "2023-01-15", "hometown": "Hậu Giang", "address": "78 Nguyễn Huệ, P.2, TP.Sóc Trăng", "phone": "0923456789", "email": "phuong.le@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_002", "subject": "Ngữ văn", "role": "Giáo viên", "rank": "GV hạng III", "join_date": "2018-08-01", "weekly_lessons": 18, "salary_coeff": 2.34, "party_member": false, "party_year": null },
+      "education": { "degree": "Đại học", "major": "Sư phạm Ngữ văn", "institution": "ĐH Cần Thơ", "grad_year": 2015, "foreign_lang": "B1", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Độc thân", "spouse_name": null, "spouse_job": null, "spouse_phone": null, "children": [], "emergency_contact": "Lê Văn Hai (Ba) - 0934567890" },
+      "certificates": [],
+      "achievements": [{ "title": "GV chủ nhiệm giỏi cấp trường", "awarded_by": "Trường THCS&THPT", "year": 2023, "level": "school" }],
+      "avatar_url": "https://i.pravatar.cc/150?img=23",
+      "status": "pending", "completion_pct": 58,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-15T00:00:00+07:00"
+    },
+    {
+      "id": "tchr_004", "user_id": null,
+      "personal": { "full_name": "Phạm Đức Trung", "dob": "1989-07-15", "gender": "Nam", "ethnicity": "Kinh", "religion": "Không", "cccd": "079189078901", "cccd_date": "2022-08-01", "hometown": "Sóc Trăng", "address": "12 Trần Phú, P.4, TP.Sóc Trăng", "phone": "0934567890", "email": "trung.pham@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_003", "subject": "Tiếng Anh", "role": "Tổ trưởng", "rank": "GV hạng II", "join_date": "2014-08-01", "weekly_lessons": 18, "salary_coeff": 3.33, "party_member": true, "party_year": 2016 },
+      "education": { "degree": "Thạc sĩ", "major": "Sư phạm Tiếng Anh", "institution": "ĐH Ngoại ngữ Huế", "grad_year": 2014, "foreign_lang": "C1 - IELTS 7.5", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Đã kết hôn", "spouse_name": "Nguyễn Thị Lan", "spouse_job": "Kế toán", "spouse_phone": "0945678901", "children": [{ "name": "Phạm Bảo Ngọc", "year": 2019, "gender": "Nữ" }], "emergency_contact": "Nguyễn Thị Lan - 0945678901" },
+      "certificates": [{ "name": "IELTS 7.5", "issued_by": "British Council", "year": 2020 }, { "name": "Chứng chỉ bồi dưỡng THPT hạng II", "issued_by": "Bộ GD&ĐT", "year": 2021 }],
+      "achievements": [{ "title": "GV dạy giỏi cấp tỉnh", "awarded_by": "Sở GD&ĐT Sóc Trăng", "year": 2023, "level": "province" }],
+      "avatar_url": "https://i.pravatar.cc/150?img=33",
+      "status": "complete", "completion_pct": 98,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-19T00:00:00+07:00"
+    },
+    {
+      "id": "tchr_005", "user_id": null,
+      "personal": { "full_name": "Nguyễn Thị Kim Chi", "dob": "1984-01-30", "gender": "Nữ", "ethnicity": "Kinh", "religion": "Không", "cccd": "079184012345", "cccd_date": "2022-06-01", "hometown": "Bạc Liêu", "address": "56 Lê Thánh Tôn, P.6, TP.Sóc Trăng", "phone": "0945678901", "email": "chi.nguyen@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_005", "subject": "Hóa học", "role": "Tổ trưởng", "rank": "GV hạng II", "join_date": "2008-08-01", "weekly_lessons": 17, "salary_coeff": 3.99, "party_member": true, "party_year": 2011 },
+      "education": { "degree": "Thạc sĩ", "major": "Sư phạm Hóa học", "institution": "ĐH Khoa học Tự nhiên TP.HCM", "grad_year": 2008, "foreign_lang": "B2", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Đã kết hôn", "spouse_name": "Trần Minh Tuấn", "spouse_job": "Bác sĩ", "spouse_phone": "0956789012", "children": [{ "name": "Nguyễn Minh Châu", "year": 2013, "gender": "Nữ" }, { "name": "Nguyễn Minh Khôi", "year": 2016, "gender": "Nam" }], "emergency_contact": "Trần Minh Tuấn - 0956789012" },
+      "certificates": [{ "name": "Chứng chỉ bồi dưỡng THPT hạng II", "issued_by": "Bộ GD&ĐT", "year": 2019 }, { "name": "Bồi dưỡng thường xuyên 2024", "issued_by": "Sở GD&ĐT Sóc Trăng", "year": 2024 }],
+      "achievements": [{ "title": "Chiến sĩ thi đua cấp tỉnh", "awarded_by": "UBND tỉnh Sóc Trăng", "year": 2023, "level": "province" }],
+      "avatar_url": "https://i.pravatar.cc/150?img=44",
+      "status": "complete", "completion_pct": 90,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-18T00:00:00+07:00"
+    },
+    {
+      "id": "tchr_006", "user_id": null,
+      "personal": { "full_name": "Hoàng Minh Khoa", "dob": "1996-09-22", "gender": "Nam", "ethnicity": "Kinh", "religion": "Không", "cccd": "079196098765", "cccd_date": "2023-03-01", "hometown": "An Giang", "address": "99 Nguyễn Trãi, P.5, TP.Sóc Trăng", "phone": "0956789012", "email": "khoa.hoang@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_004", "subject": "Tin học", "role": "Tổ trưởng", "rank": "GV hạng III", "join_date": "2021-08-01", "weekly_lessons": 18, "salary_coeff": 2.34, "party_member": false, "party_year": null },
+      "education": { "degree": "Đại học", "major": "Sư phạm Tin học", "institution": "ĐH Cần Thơ", "grad_year": 2019, "foreign_lang": "B1", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Độc thân", "spouse_name": null, "spouse_job": null, "spouse_phone": null, "children": [], "emergency_contact": "Hoàng Văn Nam (Ba) - 0967890123" },
+      "certificates": [],
+      "achievements": [],
+      "avatar_url": "https://i.pravatar.cc/150?img=15",
+      "status": "processing", "completion_pct": 45,
+      "created_at": "2025-01-10T00:00:00+07:00", "updated_at": "2025-01-10T00:00:00+07:00"
+    },
+    {
+      "id": "tchr_007", "user_id": null,
+      "personal": { "full_name": "Bùi Thị Thu Hà", "dob": "1988-12-05", "gender": "Nữ", "ethnicity": "Kinh", "religion": "Không", "cccd": "079188125678", "cccd_date": "2022-09-01", "hometown": "Sóc Trăng", "address": "34 Phạm Hùng, P.7, TP.Sóc Trăng", "phone": "0967890123", "email": "ha.bui@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_005", "subject": "Sinh học", "role": "Tổ phó", "rank": "GV hạng II", "join_date": "2013-08-01", "weekly_lessons": 17, "salary_coeff": 3.33, "party_member": true, "party_year": 2015 },
+      "education": { "degree": "Thạc sĩ", "major": "Sư phạm Sinh học", "institution": "ĐH Khoa học Tự nhiên TP.HCM", "grad_year": 2013, "foreign_lang": "B1", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Đã kết hôn", "spouse_name": "Nguyễn Văn Hải", "spouse_job": "Kỹ sư", "spouse_phone": "0978901234", "children": [{ "name": "Nguyễn Thị Bảo An", "year": 2016, "gender": "Nữ" }], "emergency_contact": "Nguyễn Văn Hải - 0978901234" },
+      "certificates": [{ "name": "Chứng chỉ bồi dưỡng THPT hạng II", "issued_by": "Bộ GD&ĐT", "year": 2020 }, { "name": "Bồi dưỡng thường xuyên 2024", "issued_by": "Sở GD&ĐT", "year": 2024 }],
+      "achievements": [{ "title": "GV dạy giỏi cấp trường", "awarded_by": "Trường THCS&THPT", "year": 2023, "level": "school" }],
+      "avatar_url": "https://i.pravatar.cc/150?img=25",
+      "status": "complete", "completion_pct": 88,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-17T00:00:00+07:00"
+    },
+    {
+      "id": "tchr_008", "user_id": null,
+      "personal": { "full_name": "Võ Tấn Phát", "dob": "1991-04-18", "gender": "Nam", "ethnicity": "Kinh", "religion": "Không", "cccd": "079191045678", "cccd_date": "2022-11-01", "hometown": "Trà Vinh", "address": "67 Đinh Tiên Hoàng, P.1, TP.Sóc Trăng", "phone": "0978901234", "email": "phat.vo@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_001", "subject": "Toán học", "role": "Giáo viên", "rank": "GV hạng III", "join_date": "2016-08-01", "weekly_lessons": 18, "salary_coeff": 2.67, "party_member": false, "party_year": null },
+      "education": { "degree": "Đại học", "major": "Sư phạm Toán", "institution": "ĐH Cần Thơ", "grad_year": 2013, "foreign_lang": "B1", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Đã kết hôn", "spouse_name": "Trần Thị Ngọc", "spouse_job": "Y tá", "spouse_phone": "0989012345", "children": [{ "name": "Võ Bảo Châu", "year": 2020, "gender": "Nữ" }], "emergency_contact": "Trần Thị Ngọc - 0989012345" },
+      "certificates": [],
+      "achievements": [],
+      "avatar_url": "https://i.pravatar.cc/150?img=8",
+      "status": "pending", "completion_pct": 62,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-05T00:00:00+07:00"
+    },
+    {
+      "id": "tchr_009", "user_id": null,
+      "personal": { "full_name": "Đặng Thị Mỹ Linh", "dob": "1980-08-14", "gender": "Nữ", "ethnicity": "Kinh", "religion": "Không", "cccd": "079180089012", "cccd_date": "2022-07-01", "hometown": "Sóc Trăng", "address": "88 Phan Đình Phùng, P.2, TP.Sóc Trăng", "phone": "0989012345", "email": "linh.dang@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_006", "subject": "Địa lý", "role": "Tổ trưởng", "rank": "GV hạng I", "join_date": "2003-08-01", "weekly_lessons": 16, "salary_coeff": 4.98, "party_member": true, "party_year": 2006 },
+      "education": { "degree": "Thạc sĩ", "major": "Địa lý học", "institution": "ĐH Sư phạm Hà Nội", "grad_year": 2003, "foreign_lang": "B2", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Đã kết hôn", "spouse_name": "Nguyễn Văn Hùng", "spouse_job": "Luật sư", "spouse_phone": "0901234568", "children": [{ "name": "Nguyễn Mỹ Hạnh", "year": 2008, "gender": "Nữ" }, { "name": "Nguyễn Minh Hùng", "year": 2011, "gender": "Nam" }], "emergency_contact": "Nguyễn Văn Hùng - 0901234568" },
+      "certificates": [{ "name": "Chứng chỉ bồi dưỡng THPT hạng I", "issued_by": "Bộ GD&ĐT", "year": 2018 }, { "name": "Bồi dưỡng thường xuyên 2024", "issued_by": "Sở GD&ĐT", "year": 2024 }],
+      "achievements": [{ "title": "Chiến sĩ thi đua cấp tỉnh", "awarded_by": "UBND tỉnh Sóc Trăng", "year": 2024, "level": "province" }, { "title": "Bằng khen Bộ GD&ĐT", "awarded_by": "Bộ GD&ĐT", "year": 2022, "level": "national" }],
+      "avatar_url": "https://i.pravatar.cc/150?img=38",
+      "status": "complete", "completion_pct": 97,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-20T00:00:00+07:00"
+    },
+    {
+      "id": "tchr_010", "user_id": null,
+      "personal": { "full_name": "Lý Văn Khải", "dob": "1985-06-25", "gender": "Nam", "ethnicity": "Khmer", "religion": "Phật giáo", "cccd": "079185067890", "cccd_date": "2022-05-01", "hometown": "Kiên Giang", "address": "100 Hùng Vương, P.3, TP.Sóc Trăng", "phone": "0901234568", "email": "khai.ly@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_006", "subject": "Lịch sử", "role": "Tổ phó", "rank": "GV hạng II", "join_date": "2009-08-01", "weekly_lessons": 17, "salary_coeff": 3.66, "party_member": true, "party_year": 2013 },
+      "education": { "degree": "Đại học", "major": "Sư phạm Lịch sử", "institution": "ĐH Cần Thơ", "grad_year": 2007, "foreign_lang": "B1", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Đã kết hôn", "spouse_name": "Kim Thị Hoa", "spouse_job": "Giáo viên Tiểu học", "spouse_phone": "0912345679", "children": [{ "name": "Lý Kim Phụng", "year": 2014, "gender": "Nữ" }], "emergency_contact": "Kim Thị Hoa - 0912345679" },
+      "certificates": [{ "name": "Chứng chỉ bồi dưỡng THPT hạng II", "issued_by": "Bộ GD&ĐT", "year": 2020 }],
+      "achievements": [],
+      "avatar_url": "https://i.pravatar.cc/150?img=20",
+      "status": "processing", "completion_pct": 70,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-12T00:00:00+07:00"
+    },
+    {
+      "id": "tchr_011", "user_id": null,
+      "personal": { "full_name": "Trương Thị Lan Anh", "dob": "1979-02-10", "gender": "Nữ", "ethnicity": "Kinh", "religion": "Không", "cccd": "079179023456", "cccd_date": "2022-04-01", "hometown": "Sóc Trăng", "address": "22 Mạc Đĩnh Chi, P.4, TP.Sóc Trăng", "phone": "0912345679", "email": "lananh.truong@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_002", "subject": "Ngữ văn", "role": "Tổ trưởng", "rank": "GV hạng I", "join_date": "2002-08-01", "weekly_lessons": 16, "salary_coeff": 5.64, "party_member": true, "party_year": 2005 },
+      "education": { "degree": "Thạc sĩ", "major": "Văn học Việt Nam", "institution": "ĐH Sư phạm Hà Nội", "grad_year": 2002, "foreign_lang": "B1", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Đã kết hôn", "spouse_name": "Nguyễn Bá Thành", "spouse_job": "Kiến trúc sư", "spouse_phone": "0923456780", "children": [{ "name": "Nguyễn Lan Chi", "year": 2006, "gender": "Nữ" }, { "name": "Nguyễn Gia Bảo", "year": 2009, "gender": "Nam" }], "emergency_contact": "Nguyễn Bá Thành - 0923456780" },
+      "certificates": [{ "name": "Chứng chỉ bồi dưỡng THPT hạng I", "issued_by": "Bộ GD&ĐT", "year": 2017 }, { "name": "Bồi dưỡng thường xuyên 2024", "issued_by": "Sở GD&ĐT", "year": 2024 }],
+      "achievements": [{ "title": "Bằng khen Bộ GD&ĐT", "awarded_by": "Bộ GD&ĐT", "year": 2023, "level": "national" }, { "title": "Nhà giáo ưu tú", "awarded_by": "Nhà nước", "year": 2022, "level": "national" }],
+      "avatar_url": "https://i.pravatar.cc/150?img=41",
+      "status": "complete", "completion_pct": 100,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-21T00:00:00+07:00"
+    },
+    {
+      "id": "tchr_012", "user_id": null,
+      "personal": { "full_name": "Phan Quốc Huy", "dob": "1995-11-02", "gender": "Nam", "ethnicity": "Kinh", "religion": "Không", "cccd": "079195112345", "cccd_date": "2023-02-01", "hometown": "Cần Thơ", "address": "55 Lê Duẩn, P.5, TP.Sóc Trăng", "phone": "0923456780", "email": "huy.phan@thcsthpt-soctrang.edu.vn" },
+      "work": { "dept_id": "dept_003", "subject": "Tiếng Anh", "role": "Tổ phó", "rank": "GV hạng III", "join_date": "2020-08-01", "weekly_lessons": 18, "salary_coeff": 2.34, "party_member": false, "party_year": null },
+      "education": { "degree": "Thạc sĩ", "major": "Sư phạm Tiếng Anh", "institution": "ĐH Cần Thơ", "grad_year": 2020, "foreign_lang": "C1 - IELTS 7.0", "it_level": "Đạt chuẩn kỹ năng số" },
+      "family": { "marital_status": "Độc thân", "spouse_name": null, "spouse_job": null, "spouse_phone": null, "children": [], "emergency_contact": "Phan Văn Đức (Ba) - 0934567891" },
+      "certificates": [{ "name": "IELTS 7.0", "issued_by": "British Council", "year": 2022 }],
+      "achievements": [],
+      "avatar_url": "https://i.pravatar.cc/150?img=52",
+      "status": "complete", "completion_pct": 82,
+      "created_at": "2025-01-01T00:00:00+07:00", "updated_at": "2025-01-16T00:00:00+07:00"
+    }
+  ]
+}

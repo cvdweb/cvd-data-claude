@@ -1,0 +1,15 @@
+{
+  "meta": { "table": "documents", "total": 10, "updated_at": "2025-01-21T00:00:00+07:00" },
+  "data": [
+    { "id": "doc_001", "name": "Kế hoạch giáo dục nhà trường 2024-2025.pdf", "ext": "pdf", "folder": "Kế hoạch dạy học", "dept_id": "all", "size_bytes": 2516582, "uploaded_by": "usr_001", "updated_at": "2025-01-10T00:00:00+07:00" },
+    { "id": "doc_002", "name": "Phân phối chương trình Toán 10 HK2.docx",   "ext": "docx","folder": "Phân phối chương trình", "dept_id": "dept_001", "size_bytes": 190259, "uploaded_by": "usr_002", "updated_at": "2025-01-18T00:00:00+07:00" },
+    { "id": "doc_003", "name": "Danh sách GV đăng ký thi GVG 2025.xlsx",    "ext": "xlsx","folder": "Minh chứng thi đua",    "dept_id": "all",      "size_bytes": 159744, "uploaded_by": "usr_001", "updated_at": "2025-01-17T00:00:00+07:00" },
+    { "id": "doc_004", "name": "Bộ đề kiểm tra HK2 Vật lý 11.pdf",          "ext": "pdf", "folder": "Đề kiểm tra",           "dept_id": "dept_005", "size_bytes": 1153434, "uploaded_by": "usr_002", "updated_at": "2025-01-15T00:00:00+07:00" },
+    { "id": "doc_005", "name": "TT19_2019 chuẩn chức danh nghề nghiệp.pdf", "ext": "pdf", "folder": "Văn bản BGD",            "dept_id": "all",      "size_bytes": 442368, "uploaded_by": "usr_001", "updated_at": "2025-01-12T00:00:00+07:00" },
+    { "id": "doc_006", "name": "KHBD Ngữ văn 12 chương trình mới.docx",     "ext": "docx","folder": "Kế hoạch dạy học",      "dept_id": "dept_002", "size_bytes": 2936013, "uploaded_by": "usr_002", "updated_at": "2025-01-10T00:00:00+07:00" },
+    { "id": "doc_007", "name": "Bộ đề Tiếng Anh THPT cấu trúc mới.xlsx",   "ext": "xlsx","folder": "Đề kiểm tra",           "dept_id": "dept_003", "size_bytes": 798720, "uploaded_by": "usr_002", "updated_at": "2025-01-08T00:00:00+07:00" },
+    { "id": "doc_008", "name": "Biên bản họp Tổ Tin học T1-2025.docx",      "ext": "docx","folder": "Kế hoạch dạy học",      "dept_id": "dept_004", "size_bytes": 65536,  "uploaded_by": "usr_002", "updated_at": "2025-01-05T00:00:00+07:00" },
+    { "id": "doc_009", "name": "Phân phối chương trình Địa lý 11.docx",     "ext": "docx","folder": "Phân phối chương trình", "dept_id": "dept_006", "size_bytes": 143360, "uploaded_by": "usr_002", "updated_at": "2025-01-08T00:00:00+07:00" },
+    { "id": "doc_010", "name": "Quyết định khen thưởng GVG tỉnh 2024.pdf",  "ext": "pdf", "folder": "Minh chứng thi đua",    "dept_id": "all",      "size_bytes": 327680, "uploaded_by": "usr_001", "updated_at": "2025-01-03T00:00:00+07:00" }
+  ]
+}

@@ -1,0 +1,10 @@
+# ============================================
+# EduVN Manager — root/.htaccess
+# Chặn truy cập trực tiếp vào thư mục nhạy cảm
+# ============================================
+
+# Chặn tất cả - chỉ cho phép public/ được truy cập qua web
+# (Nếu document root là /public thì không cần file này)
+
+Order Allow,Deny
+Deny from all

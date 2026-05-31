@@ -1,0 +1,89 @@
+{
+  "meta": { "table": "requests", "total": 6, "updated_at": "2025-01-21T00:00:00+07:00" },
+  "data": [
+    {
+      "id": "req_001",
+      "title": "Cập nhật chứng chỉ bồi dưỡng THPT 2024",
+      "description": "Yêu cầu tất cả giáo viên cập nhật chứng chỉ bồi dưỡng thường xuyên theo Thông tư 19/2019 của Bộ GD&ĐT. Vui lòng tải lên file scan chứng chỉ gốc.",
+      "created_by": "usr_001",
+      "target_dept": "all",
+      "deadline": "2025-01-15",
+      "priority": "high",
+      "status": "pending",
+      "completed": 28,
+      "total": 40,
+      "created_at": "2025-01-05T08:00:00+07:00",
+      "updated_at": "2025-01-21T00:00:00+07:00"
+    },
+    {
+      "id": "req_002",
+      "title": "Bổ sung thông tin gia đình (vợ/chồng, con)",
+      "description": "Cập nhật đầy đủ thông tin gia đình theo mẫu hồ sơ mới từ Sở GD&ĐT Sóc Trăng ban hành tháng 01/2025.",
+      "created_by": "usr_001",
+      "target_dept": "all",
+      "deadline": "2025-01-20",
+      "priority": "medium",
+      "status": "processing",
+      "completed": 35,
+      "total": 40,
+      "created_at": "2025-01-06T08:00:00+07:00",
+      "updated_at": "2025-01-21T00:00:00+07:00"
+    },
+    {
+      "id": "req_003",
+      "title": "Nộp minh chứng giờ dạy giỏi cấp tỉnh",
+      "description": "Minh chứng tham dự và đạt giải hội thi giáo viên dạy giỏi cấp tỉnh năm học 2024-2025. Nộp file PDF quyết định khen thưởng.",
+      "created_by": "usr_001",
+      "target_dept": "dept_001,dept_002,dept_003",
+      "deadline": "2024-12-30",
+      "priority": "high",
+      "status": "complete",
+      "completed": 8,
+      "total": 8,
+      "created_at": "2024-12-15T08:00:00+07:00",
+      "updated_at": "2025-01-02T00:00:00+07:00"
+    },
+    {
+      "id": "req_004",
+      "title": "Kế hoạch bài dạy học kỳ II 2024-2025",
+      "description": "Nộp kế hoạch bài dạy (KHBD) toàn bộ học kỳ II theo chương trình GDPT 2018. File Word hoặc PDF.",
+      "created_by": "usr_001",
+      "target_dept": "all",
+      "deadline": "2025-01-05",
+      "priority": "high",
+      "status": "complete",
+      "completed": 40,
+      "total": 40,
+      "created_at": "2024-12-20T08:00:00+07:00",
+      "updated_at": "2025-01-06T00:00:00+07:00"
+    },
+    {
+      "id": "req_005",
+      "title": "Cập nhật trình độ ngoại ngữ",
+      "description": "Giáo viên bổ sung kết quả kiểm tra ngoại ngữ theo chuẩn Châu Âu hoặc tương đương (IELTS, TOEIC, B1, B2...).",
+      "created_by": "usr_001",
+      "target_dept": "all",
+      "deadline": "2025-02-01",
+      "priority": "low",
+      "status": "pending",
+      "completed": 12,
+      "total": 40,
+      "created_at": "2025-01-10T08:00:00+07:00",
+      "updated_at": "2025-01-21T00:00:00+07:00"
+    },
+    {
+      "id": "req_006",
+      "title": "Đăng ký đề tài NCKHSP 2025",
+      "description": "Đăng ký đề tài nghiên cứu khoa học sư phạm cấp cơ sở cho giáo viên có nguyện vọng. Nộp đề cương sơ bộ.",
+      "created_by": "usr_001",
+      "target_dept": "dept_005,dept_001",
+      "deadline": "2025-01-25",
+      "priority": "medium",
+      "status": "processing",
+      "completed": 7,
+      "total": 14,
+      "created_at": "2025-01-08T08:00:00+07:00",
+      "updated_at": "2025-01-21T00:00:00+07:00"
+    }
+  ]
+}

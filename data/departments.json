@@ -1,0 +1,11 @@
+{
+  "meta": { "table": "departments", "total": 6, "updated_at": "2025-01-21T00:00:00+07:00" },
+  "data": [
+    { "id": "dept_001", "name": "Tổ Toán", "head_id": "tchr_002", "deputy_id": "tchr_001", "icon": "📐", "color": "#1a6ef5", "docs": 32, "member_count": 8 },
+    { "id": "dept_002", "name": "Tổ Văn", "head_id": "tchr_011", "deputy_id": "tchr_003", "icon": "📚", "color": "#8b5cf6", "docs": 28, "member_count": 7 },
+    { "id": "dept_003", "name": "Tổ Tiếng Anh", "head_id": "tchr_004", "deputy_id": "tchr_012", "icon": "🌐", "color": "#10b981", "docs": 24, "member_count": 6 },
+    { "id": "dept_004", "name": "Tổ Tin học", "head_id": "tchr_006", "deputy_id": "tchr_020", "icon": "💻", "color": "#f59e0b", "docs": 19, "member_count": 5 },
+    { "id": "dept_005", "name": "Tổ KHTN", "head_id": "tchr_005", "deputy_id": "tchr_007", "icon": "🔬", "color": "#ef4444", "docs": 41, "member_count": 9 },
+    { "id": "dept_006", "name": "Tổ Lịch sử & Địa lý", "head_id": "tchr_009", "deputy_id": "tchr_010", "icon": "🗺️", "color": "#00c6ae", "docs": 17, "member_count": 5 }
+  ]
+}

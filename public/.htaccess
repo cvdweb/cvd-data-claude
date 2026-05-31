@@ -1,0 +1,77 @@
+# ============================================
+# EduVN Manager — public/.htaccess
+# Bảo mật và cấu hình Apache
+# ============================================
+
+Options -Indexes
+Options -MultiViews
+
+# ---- Bật mod_rewrite ----
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # HTTPS redirect (bật khi deploy thật)
+    # RewriteCond %{HTTPS} off
+    # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    # Chuyển index.html → index.php nếu có
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)\.html$ /$1.php [L,R=301]
+</IfModule>
+
+# ---- Bảo mật header ----
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+    # Content-Security-Policy — bật sau khi test xong
+    # Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' cdn.jsdelivr.net cdnjs.cloudflare.com fonts.googleapis.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com cdnjs.cloudflare.com; img-src 'self' data: i.pravatar.cc ui-avatars.com; font-src 'self' fonts.gstatic.com cdnjs.cloudflare.com;"
+</IfModule>
+
+# ---- Cache tĩnh ----
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css             "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/png            "access plus 1 year"
+    ExpiresByType image/jpg            "access plus 1 year"
+    ExpiresByType image/jpeg           "access plus 1 year"
+    ExpiresByType image/gif            "access plus 1 year"
+    ExpiresByType image/svg+xml        "access plus 1 year"
+    ExpiresByType image/x-icon         "access plus 1 year"
+    ExpiresByType application/pdf      "access plus 1 month"
+</IfModule>
+
+# ---- Nén Gzip ----
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript text/javascript application/json text/plain
+</IfModule>
+
+# ---- Ẩn phiên bản PHP ----
+<IfModule mod_php.c>
+    php_flag expose_php Off
+</IfModule>
+
+# ---- Chặn truy cập file nhạy cảm ----
+<FilesMatch "\.(json|log|sh|env|bak|sql|ini)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# ---- Chặn hotlinking (tuỳ chọn) ----
+# <IfModule mod_rewrite.c>
+#     RewriteCond %{HTTP_REFERER} !^$
+#     RewriteCond %{HTTP_REFERER} !^https?://(www\.)?yourdomain\.com [NC]
+#     RewriteRule \.(jpg|jpeg|png|gif)$ - [F,NC,L]
+# </IfModule>
+
+# ---- Trang lỗi tuỳ chỉnh ----
+ErrorDocument 403 /errors/403.php
+ErrorDocument 404 /errors/404.php
+ErrorDocument 500 /errors/500.php
+
+# ---- Charset mặc định ----
+AddDefaultCharset UTF-8

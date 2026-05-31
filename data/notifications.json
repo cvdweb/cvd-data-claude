@@ -1,0 +1,85 @@
+{
+  "meta": { "table": "notifications", "total": 8, "updated_at": "2025-01-21T00:00:00+07:00" },
+  "data": [
+    {
+      "id": "notif_001",
+      "user_id": "usr_001",
+      "title": "Yêu cầu mới từ BGH",
+      "body": "BGH đã tạo yêu cầu mới: <strong>Cập nhật chứng chỉ bồi dưỡng THPT 2024</strong>",
+      "type": "request",
+      "link": "/requests.php",
+      "is_read": false,
+      "created_at": "2025-01-21T07:00:00+07:00"
+    },
+    {
+      "id": "notif_002",
+      "user_id": "usr_001",
+      "title": "Tổ Toán nộp tài liệu",
+      "body": "<strong>Tổ Toán</strong> đã tải lên 3 tài liệu mới vào kho chuyên môn",
+      "type": "doc",
+      "link": "/documents.php",
+      "is_read": false,
+      "created_at": "2025-01-21T06:30:00+07:00"
+    },
+    {
+      "id": "notif_003",
+      "user_id": "usr_001",
+      "title": "Hạn nộp sắp đến",
+      "body": "Yêu cầu <strong>Cập nhật chứng chỉ bồi dưỡng</strong> còn 5 ngày nữa đến hạn",
+      "type": "deadline",
+      "link": "/requests.php?id=req_001",
+      "is_read": false,
+      "created_at": "2025-01-21T06:00:00+07:00"
+    },
+    {
+      "id": "notif_004",
+      "user_id": "usr_001",
+      "title": "Giáo viên mới tạo hồ sơ",
+      "body": "<strong>Hoàng Minh Khoa</strong> đã tạo hồ sơ lần đầu trong hệ thống",
+      "type": "profile",
+      "link": "/teacher-detail.php?id=tchr_006",
+      "is_read": false,
+      "created_at": "2025-01-20T15:00:00+07:00"
+    },
+    {
+      "id": "notif_005",
+      "user_id": "usr_001",
+      "title": "Hoàn thành yêu cầu",
+      "body": "<strong>Tổ Tiếng Anh</strong> đã hoàn thành 100% yêu cầu kế hoạch bài dạy HK2",
+      "type": "request",
+      "link": "/requests.php?id=req_004",
+      "is_read": true,
+      "created_at": "2025-01-19T10:00:00+07:00"
+    },
+    {
+      "id": "notif_006",
+      "user_id": "usr_001",
+      "title": "Sao lưu tự động",
+      "body": "Hệ thống đã sao lưu dữ liệu tự động lúc 23:00 ngày 20/01/2025 thành công",
+      "type": "system",
+      "link": "/settings.php",
+      "is_read": true,
+      "created_at": "2025-01-20T23:00:00+07:00"
+    },
+    {
+      "id": "notif_007",
+      "user_id": "usr_002",
+      "title": "Yêu cầu từ BGH",
+      "body": "BGH yêu cầu <strong>Tổ Toán</strong> nộp đăng ký đề tài NCKHSP 2025 trước 25/01",
+      "type": "request",
+      "link": "/requests.php?id=req_006",
+      "is_read": false,
+      "created_at": "2025-01-21T07:00:00+07:00"
+    },
+    {
+      "id": "notif_008",
+      "user_id": "usr_003",
+      "title": "Cần bổ sung hồ sơ",
+      "body": "Hồ sơ của bạn còn thiếu <strong>Chứng chỉ bồi dưỡng 2024</strong>. Hạn nộp: 15/01/2025",
+      "type": "deadline",
+      "link": "/my-profile.php",
+      "is_read": false,
+      "created_at": "2025-01-21T07:00:00+07:00"
+    }
+  ]
+}

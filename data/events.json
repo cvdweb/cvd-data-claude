@@ -1,0 +1,17 @@
+{
+  "meta": { "table": "events", "total": 12, "updated_at": "2025-01-21T00:00:00+07:00" },
+  "data": [
+    { "id": "evt_001", "title": "Họp Hội đồng trường đầu năm",     "type": "meeting",  "date": "2025-01-06", "end_date": null, "time": "07:00", "location": "Hội trường",       "description": "Họp triển khai kế hoạch học kỳ II",    "created_by": "usr_001", "dept": "Toàn trường" },
+    { "id": "evt_002", "title": "Hạn nộp kế hoạch bài dạy HK2",     "type": "deadline", "date": "2025-01-08", "end_date": null, "time": "17:00", "location": "Văn phòng",        "description": "Nộp KHBD toàn bộ HK2",               "created_by": "usr_001", "dept": "Tất cả GV" },
+    { "id": "evt_003", "title": "Kiểm tra giữa HK2 – Khối 10",      "type": "exam",     "date": "2025-01-13", "end_date": "2025-01-14", "time": "07:30", "location": "Các phòng thi", "description": "Kiểm tra tất cả môn",             "created_by": "usr_001", "dept": "Khối 10" },
+    { "id": "evt_004", "title": "Hạn nộp chứng chỉ bồi dưỡng",      "type": "deadline", "date": "2025-01-15", "end_date": null, "time": "17:00", "location": "Văn phòng BGH",   "description": "Chứng chỉ bồi dưỡng thường xuyên", "created_by": "usr_001", "dept": "Tất cả GV" },
+    { "id": "evt_005", "title": "Họp Tổ Toán tháng 1",               "type": "meeting",  "date": "2025-01-15", "end_date": null, "time": "14:00", "location": "Phòng họp B",     "description": "Sinh hoạt chuyên môn tháng 1",       "created_by": "usr_002", "dept": "Tổ Toán" },
+    { "id": "evt_006", "title": "Tập huấn SGK mới – Toán THPT",      "type": "training", "date": "2025-01-17", "end_date": null, "time": "07:30", "location": "Phòng họp A",     "description": "NXB Giáo dục tập huấn",              "created_by": "usr_001", "dept": "Tổ Toán, Tổ KHTN" },
+    { "id": "evt_007", "title": "Họp Ban Giám hiệu tuần 4",           "type": "meeting",  "date": "2025-01-21", "end_date": null, "time": "07:00", "location": "Phòng BGH",       "description": "Họp định kỳ tuần",                   "created_by": "usr_001", "dept": "Ban Giám hiệu" },
+    { "id": "evt_008", "title": "Hạn thông tin gia đình",             "type": "deadline", "date": "2025-01-20", "end_date": null, "time": "17:00", "location": "—",               "description": "Bổ sung thông tin gia đình",         "created_by": "usr_001", "dept": "Tất cả GV" },
+    { "id": "evt_009", "title": "Kiểm tra giữa HK2 – Khối 12",       "type": "exam",     "date": "2025-01-24", "end_date": "2025-01-25", "time": "07:30", "location": "Các phòng thi", "description": "Kiểm tra tất cả môn",             "created_by": "usr_001", "dept": "Khối 12" },
+    { "id": "evt_010", "title": "Hạn đăng ký NCKHSP 2025",           "type": "deadline", "date": "2025-01-25", "end_date": null, "time": "17:00", "location": "Văn phòng",        "description": "Đề tài NCKHSP cấp cơ sở",           "created_by": "usr_001", "dept": "Tổ KHTN, Tổ Toán" },
+    { "id": "evt_011", "title": "Nghỉ Tết Nguyên Đán 2025",          "type": "holiday",  "date": "2025-01-27", "end_date": "2025-02-04", "time": null, "location": "—",           "description": "Nghỉ Tết Ất Tỵ 2025",               "created_by": "usr_001", "dept": "Toàn trường" },
+    { "id": "evt_012", "title": "Khai giảng HK2 sau Tết",             "type": "meeting",  "date": "2025-02-05", "end_date": null, "time": "07:00", "location": "Hội trường",       "description": "Khai giảng chính thức học kỳ II",    "created_by": "usr_001", "dept": "Toàn trường" }
+  ]
+}
